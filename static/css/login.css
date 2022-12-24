@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.signin {
+    width: 100%;
+    background-color:#f0f0f0;;
+    display: flex;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 100px 0;
+    padding: 100px 0;
+}
+.signincont{
+    width: 55%;
+    min-height: 500px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.signincont1{
+    background-color: #14ad14;
+    width: 40%;
+    height: 100%;
+    border-radius: 5px  0 0 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.signincont2{
+    width: 60%;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    background-color: #ffffff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.headlogin{
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+.desclogin{
+    color: #ffffff;
+    width: 70%;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.signincont2 input{
+    width: 80%;
+    margin: 0 80px ;
+    padding: 5px 0px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 25px;
+    border-bottom: 0.1px solid rgb(67, 65, 65) ;
+}
+.signincont2 input:focus{
+    outline: none;
+}
+
+.signincont2 button{
+    width: 82%;
+    margin-top: 18px;
+    padding: 13px 15px ;
+    background-color: #14ad14;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.signincont2 button:hover{
+    background: rgba(0, 0, 0, 0.833);
+}
+.loginprivacy{
+    width: 81.5%;
+    font-size: 11px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(76, 75, 75);
+}
+.loginprivacy span{
+    color: #14ad14;
+    font-weight: 700;
+}
+.navsignup{
+    width: 90%;
+    margin-top: 200px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.navsignup a{
+    text-decoration: none;
+    color: #14ad14;
+    font-weight: 700;
+}
+.loginimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}

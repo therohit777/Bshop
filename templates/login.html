@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bshop</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <div class="signin">
+        <div class="signincont">
+            <div class="signincont1">
+                <p class="headlogin">Login</p>
+                <p class="desclogin">Get access to your Orders, Wishlist and Recommendations</p>
+                <div class="loginimg"><img src="../static/Images/login2.png" alt="none" width="80%"></div>
+            </div>
+            <form class="signincont2">
+                <input type="email" class="email" placeholder="Enter Email">
+                <input type="password" placeholder="password">
+                <p class="loginprivacy">By continuing, you agree to Bshop's <span>Terms of Use </span>and <span>Privacy Policy</span>.</p>
+                <button type="submit">Login</button>
+
+                <p class="navsignup">New to Bshop? <a href="/signup">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+</body>
+</html>
